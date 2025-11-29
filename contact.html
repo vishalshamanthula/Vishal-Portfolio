@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Vishal Shamanthula">
+    <title>Contact - Vishal Shamanthula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Vishal S.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="resume.html">Resume</a>
+                    <ul class="dropdown-content">
+                        <li><a href="resume.html#experience">Experience</a></li>
+                        <li><a href="resume.html#skills">Skills</a></li>
+                        <li><a href="resume.html#certifications">Certifications</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="resume.html">Resume</a>
+                    <ul class="dropdown-content">
+                        <li><a href="resume.html#experience">Experience</a></li>
+                        <li><a href="resume.html#skills">Skills</a></li>
+                        <li><a href="resume.html#certifications">Certifications</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section>
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="color: var(--text-gray); margin-bottom: 3rem; font-size: 1.1rem;">
+                I'm always open to discussing new opportunities, projects, or just having a conversation. 
+                Feel free to reach out using the form below or through any of my contact links.
+            </p>
+
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>
+                        <strong>📍 Location:</strong><br>
+                        Hyderabad, India
+                    </p>
+                    <p>
+                        <strong>📞 Phone:</strong><br>
+                        <a href="tel:+917981387292">+91 7981387292</a>
+                    </p>
+                    <p>
+                        <strong>✉️ Email:</strong><br>
+                        <a href="mailto:shamanthulavishal123@gmail.com">shamanthulavishal123@gmail.com</a>
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="mailto:shamanthulavishal123@gmail.com">Email Me</a>
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form id="contact-form" method="post">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
